@@ -1,0 +1,12 @@
+@keyframes reveal {
+  0% {
+    transform: scale(0.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animateReveal {
+  animation: reveal 200ms;
+}
